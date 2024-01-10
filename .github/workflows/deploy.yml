@@ -49,6 +49,7 @@ jobs:
           touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         with:
           path: docs/.vitepress/dist
 
