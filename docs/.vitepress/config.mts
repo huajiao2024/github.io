@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "花椒叶の煎饼",
   description: "Blog",
-  base:"/",
+  base:"/huajiao2024.github.io/",
   srcDir:".",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
