@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "花椒叶の煎饼"
   text: "Blog"
-  tagline: Blog
+  tagline: 
   actions:
     - theme: brand
       text: Markdown Examples

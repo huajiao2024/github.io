@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "花椒叶の煎饼",
-  description: "Blog",
+  description: "blog ",
   base:"/",
   srcDir:".",
   themeConfig: {
